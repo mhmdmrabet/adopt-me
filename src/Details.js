@@ -31,6 +31,7 @@ class Details extends Component {
 
     return (
       <div className="details">
+        {this.state.loading && <></>}
         <h1>{name}</h1>
         <h2>
           {animal} - {breed} - {city}, {state}
